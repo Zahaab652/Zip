@@ -8,3 +8,7 @@ for x, y in zip(list, list2[::-1]):
     print(x, y)
 stocks = ['reliance', 'infoys', 'tcs']
 prices = [2175, 1127, 2750]
+
+new_dict = {stocks: prices for stocks,
+            prices in zip, prices}
+print('\n{}'.format(new_dict))
